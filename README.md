@@ -37,11 +37,11 @@ Member:
  * 4 - 7 hari diskon  20%
  * Diatas 7 hari diskon     30%
   
-Sub total 1 = total tarif - potongan
-Sub total 2 = sub total 1 - diskon
-PPN = sub total 2 * 10%
-Grand Total = sub total 2 + ppn
-Kembalian = bayar - grand total
+Sub total 1 = total tarif - potongan  
+Sub total 2 = sub total 1 - diskon  
+PPN = sub total 2 * 10%  
+Grand Total = sub total 2 + ppn  
+Kembalian = bayar - grand total  
   
   
 ### Instalasi
