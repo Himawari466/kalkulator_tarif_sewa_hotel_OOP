@@ -118,6 +118,9 @@ class Main:
       except ValueError:
         input(f"{wrn(errormsg[6], 'red')}")
         continue
+      if hari > 365:
+        input(f"{wrn('Maksimal 365 hari, [enter]', 'red')}")
+        continue
       pil = input("\nYakin input sudah benar?\nY / T >> ").lower()
       tanggal = time.strftime("[%H:%M:%S] %d/%m/%Y")
       if pil == "y":
